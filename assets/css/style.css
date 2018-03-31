@@ -1,0 +1,132 @@
+/* Side Nav Bar */
+.user-view{
+    height: 200px;
+}
+
+#sidebar-background{
+    width:100%;
+    height:100%;
+}
+#slide-out{
+    background-color: darkolivegreen;
+}
+
+/* Index Page CSS */
+#menu-icon{
+    font-size: 45px;
+    z-index: 2;
+    position: fixed;
+    color: whitesmoke;
+    border: 3px whitesmoke solid;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+
+}
+#sidebar-title{
+    font-size: 29px;
+}
+#top-image{
+    height: 150%;
+}
+#index-banner{
+    margin-bottom: 0px;
+}
+
+/* Why Adopt Page CSS */
+.center{
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+#animal-pictures{
+    height: 225px;
+    width: 450px;
+    border-radius: 8px;
+}
+#picture-row{
+    margin-bottom: -12px;
+}
+#title, #mainTitle{
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#text{
+    font-family: 'Istok Web', sans-serif;
+}
+#index-banner{
+    background-image: url('../images/cork-wallet.png')
+}
+h4#text{
+    font-weight: bold; 
+}
+p#text{
+    font-size: 18px;
+}
+.parallax-container {
+    height: 700px;
+  }
+#pawprint{
+        transform: rotate(20deg);
+}
+#index-pic{
+    margin-bottom: -10px;
+}
+h2{
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Permanent Marker', cursive;
+}
+/* Side Nav Bar */
+.user-view{
+    height: 200px;
+}
+
+#sidebar-background{
+    width:100%;
+    height:100%;
+}
+#slide-out{
+    background-color: dodgerblue;
+}
+#side-logo{
+    margin-top: 0px;
+}
+#side-name{
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+    margin-top: 126px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* footer css */
+.page-footer{
+    background-color: dodgerblue;
+}
+#logos{
+    margin-right: 15px;
+}
+.waves-effect{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+}
+.social{
+    font-size: 50px;
+}
+.next, .prev{
+    font-size: 70px;
+}
+#moreDiv{
+    text-align: left;   
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+    font-size:25px;
+    font-family: 'Pacifico', cursive;
+    color:dodgerblue
+}
