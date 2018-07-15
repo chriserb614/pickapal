@@ -101,14 +101,43 @@ $(document).ready(function () {
                     var rescueId = rescue.id.$t
                     var size = rescue.size.$t
                     var age = rescue.age.$t
+                    var animalType= rescue.breeds.breed.$t
                     // var rescueBreed= rescue.breeds.breed[1].$t
                     if (rescue.breeds.breed.length > 1) {
                         for (var j = 0; j < rescue.breeds.breed.length; j++) {
                             var rescueBreed = rescue.breeds.breed[j].$t
                         }
                     }
-                    $('#slideshowResults').append("<div class='petDiv fade' id='" + name + "'><img src='" + petPicture + "' style='width:500px;'><div class='text'><h2>" + name + "</h2><p>Sex: " + sex + "</p><p>Age: " + age + "</p><br><button id='moreBTN' value='"+ description +"' nameValue='"+ name +"' class='"+ name +" btn-large waves-effect waves-light orange'>More Information</button><div id=moreDiv>"+description+"<div></div><br></div>");
-                    $('#moreDiv').hide()
+                    // $('#slideshowResults').append("<div class='petDiv fade' id='" + name + "'><img src='" + petPicture + "' style='width:500px;'><div class='text'><h2>" + name + "</h2><p>Sex: " + sex + "</p><p>Age: " + age + "</p><br><button id='moreBTN' value='"+ description +"' nameValue='"+ name +"' class='"+ name +" btn-large waves-effect waves-light orange'>More Information</button><div id=moreDiv>"+description+"<div></div><br></div>");
+                    $('#slideshowResults').append(`
+                    <div class='petDiv fade' id= ${name}>
+                        <div class='row'>
+                            <div class='col s6'>
+                                <img src= ${petPicture} style='max-width: 340px; max-height: 340px;'>
+                            </div>
+                            <div class='col s6'>
+                                <h2>${name}</h2>
+                                <p>Sex: ${sex}</p>
+                                <br>
+                                <p>Age: ${age}</p>
+                                <br>
+                                <p>Breed: ${animalType}</p>
+                                <br>
+                                <p>Size: ${size}</p>
+                                <br>
+                                <h5>Contact Info:</h5>
+                                <br>
+                                <p>City: ${city}</p>
+                                <br>
+                                <p>Phone: ${phone}</p>
+                                <br>
+                                <p>Email: ${email}</p>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div id='moreDiv'>${description}</div>
+                        </div>
+                    </div>`)
                     $('.slideshow-container').show()
                 }
                 showSlides(slideIndex);
