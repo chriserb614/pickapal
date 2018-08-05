@@ -116,6 +116,12 @@ h2{
 .next, .prev{
     font-size: 70px;
 }
+#next{
+    padding-left: 30px;
+}
+#prev{
+    padding-right: 30px;
+}
 #moreDiv{
     text-align: left;   
     font-family: 'Philosopher', sans-serif;
