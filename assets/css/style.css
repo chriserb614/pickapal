@@ -115,6 +115,7 @@ h2{
 }
 .next, .prev{
     font-size: 70px;
+    cursor: pointer;
 }
 #next{
     padding-left: 30px;

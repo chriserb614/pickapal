@@ -123,7 +123,7 @@ $(document).ready(function () {
                                 <br>
                                 <p>Breed: ${animalType}</p>
                                 <br>
-                                <p>Size: ${size}</p>
+                                <p>Rescue ID: ${rescueId}</p>
                                 <br>
                                 <h5>Contact Info:</h5>
                                 <br>
